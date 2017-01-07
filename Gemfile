@@ -16,6 +16,7 @@ gem 'haml', '~> 4.0', '>= 4.0.7'
 gem 'simple_form', '~> 3.3', '>= 3.3.1'
 gem 'will_paginate', '~> 3.1'
 gem 'validates_email_format_of'
+gem "paperclip", "~> 5.0.0"
 
 group :development, :test do
   gem 'byebug'
