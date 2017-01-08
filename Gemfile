@@ -17,6 +17,9 @@ gem 'simple_form', '~> 3.3', '>= 3.3.1'
 gem 'will_paginate', '~> 3.1'
 gem 'validates_email_format_of'
 gem "paperclip", "~> 5.0.0"
+gem 'figaro'
+gem 'puma'
+
 
 group :development, :test do
   gem 'byebug'
@@ -25,4 +28,9 @@ end
 group :development do
   gem 'web-console', '~> 2.0'
   gem 'spring'
+  gem 'capistrano'
+  gem 'capistrano3-puma'
+  gem 'capistrano-rails', require: false
+  gem 'capistrano-bundler', require: false
+  gem 'capistrano-rvm'
 end
